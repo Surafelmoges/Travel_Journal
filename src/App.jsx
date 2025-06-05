@@ -3,30 +3,34 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {Header} from './componets/header.jsx'
-import { Entry } from './componets/Entry.jsx'
 import mount from '../images/mount.jpg'
 import markImage from "/images/mark.jpg";
+import Data from './componets/Data.js'
+import Entry  from './componets/Entry.jsx'
 
-export  function App() {
+export default function App() {
   
+const dataElement = Data.map((entry)=> {
 
+  return (
+      <Entry 
+      images ={entry.img}
+      marker ={entry.marker}
+      country={entry.country}
+      mapLink={entry.mapLink}
+      mapLinkText={entry.mapLinkText}
+      title={entry.title}
+      date={entry.date}
+      detail={entry.detail}
+      />
+  )
+
+
+})
   return (
     <>
       <Header />
-      <Entry 
-      img={mount}
-      marker={markImage}
-      country="Japanuwaye"
-      mapLink="https://www.google.com/maps/place/Mount+Fuji/@35.3606421,138.7170637,15z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu" 
-      mapLinkText = "Google Maps Link:"
-      title="Mount Fuji"
-      date="12 Jan, 2021 - 24 Jan, 2021" 
-      detail="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). 
-                    Mount Fuji is the single most popular tourist site in Japan,
-                     for both Japanese and foreign touris...."
-       
-
-      />
+          {dataElement}
     </>
   )
 }

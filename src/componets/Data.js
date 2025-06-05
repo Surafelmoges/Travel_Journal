@@ -1,8 +1,11 @@
+
+
+
 export default [
   {
     id: 'd1',
     img: {
-      src: 'https://images.unsplash.com/photo-1683713552787-eb7843b46df8?w=700&auto=format&fit=crop&q=60',
+      src: 'https://plus.unsplash.com/premium_photo-1661964177687-57387c2cbd14?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Mount Fuji'
     },
     marker: {
@@ -19,7 +22,7 @@ export default [
   {
     id: 'd2',
     img: {
-      src: 'https://upload.wikimedia.org/wikipedia/commons/2/24/Simien_Mountains_10.jpg',
+      src: 'https://images.unsplash.com/photo-1579563676678-0d0fd35062a3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Simien Mountains'
     },
     marker: {
@@ -53,7 +56,7 @@ export default [
   {
     id: 'd4',
     img: {
-      src: 'https://images.unsplash.com/photo-1580894908361-96719503369e?w=700&auto=format&fit=crop&q=60',
+      src: 'https://images.unsplash.com/photo-1615551043360-33de8b5f410c?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Grand Canyon'
     },
     marker: {
@@ -70,7 +73,7 @@ export default [
   {
     id: 'd5',
     img: {
-      src: 'https://images.unsplash.com/photo-1505761671935-60b3a7427bad?w=700&auto=format&fit=crop&q=60',
+      src: 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Santorini'
     },
     marker: {
@@ -87,7 +90,7 @@ export default [
   {
     id: 'd6',
     img: {
-      src: 'https://images.unsplash.com/photo-1564518098550-9f6fbf8dd3c9?w=700&auto=format&fit=crop&q=60',
+      src: 'https://images.unsplash.com/photo-1529528070131-eda9f3e90919?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Cape Town'
     },
     marker: {
@@ -104,7 +107,7 @@ export default [
   {
     id: 'd7',
     img: {
-      src: 'https://images.unsplash.com/photo-1542144612-1ba00456b5d0?w=700&auto=format&fit=crop&q=60',
+      src: 'https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Machu Picchu'
     },
     marker: {
@@ -121,7 +124,7 @@ export default [
   {
     id: 'd8',
     img: {
-      src: 'https://images.unsplash.com/photo-1581855213654-bd91a596be82?w=700&auto=format&fit=crop&q=60',
+      src: 'https://plus.unsplash.com/premium_photo-1724754604549-f48d1caab92a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Petra'
     },
     marker: {
@@ -138,7 +141,7 @@ export default [
   {
     id: 'd9',
     img: {
-      src: 'https://images.unsplash.com/photo-1545156521-77bd2b71d2aa?w=700&auto=format&fit=crop&q=60',
+      src: 'https://images.unsplash.com/photo-1583405584623-58f4b7d1380f?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Great Wall of China'
     },
     marker: {
@@ -155,7 +158,7 @@ export default [
   {
     id: 'd10',
     img: {
-      src: 'https://images.unsplash.com/photo-1587031577581-ec2e19f80fc1?w=700&auto=format&fit=crop&q=60',
+      src: 'https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Dubai Skyline'
     },
     marker: {

@@ -1,15 +1,15 @@
-export function Entry (props) {
+export default function Entry (props) {
     return (
         <>
          <div className="entry_journal">
             <div className="box">
                 <img 
-                src={props.img}
+                src={props.images.src}
                 alt="Mount Fuji"
                 className="entry-image"
                  />
                   <img 
-                  src={props.marker}
+                  src={props.marker.src}
                    className="marker"
                   alt="Location" 
               />
