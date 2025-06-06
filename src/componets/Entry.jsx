@@ -4,12 +4,12 @@ export default function Entry (props) {
          <div className="entry_journal">
             <div className="box">
                 <img 
-                src={props.images.src}
+                src={props.img.src}
                 alt="Mount Fuji"
                 className="entry-image"
                  />
                   <img 
-                  src={props.marker.src}
+                 src={props.marker.src}
                    className="marker"
                   alt="Location" 
               />
@@ -30,6 +30,7 @@ export default function Entry (props) {
                 
             </div>
             </div>
+
             
             
         </div>

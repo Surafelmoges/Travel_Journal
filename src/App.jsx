@@ -14,14 +14,8 @@ const dataElement = Data.map((entry)=> {
 
   return (
       <Entry 
-      images ={entry.img}
-      marker ={entry.marker}
-      country={entry.country}
-      mapLink={entry.mapLink}
-      mapLinkText={entry.mapLinkText}
-      title={entry.title}
-      date={entry.date}
-      detail={entry.detail}
+      key={entry.id}
+         {...entry}
       />
   )
 
